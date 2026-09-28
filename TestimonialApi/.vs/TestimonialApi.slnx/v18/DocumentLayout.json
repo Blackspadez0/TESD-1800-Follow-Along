@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DB81BA-9178-C7C8-C829-B7F9AADA096E}|TestimonialApi.csproj|c:\\users\\web\\downloads\\tesd-1800-follow-along\\testimonialapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DB81BA-9178-C7C8-C829-B7F9AADA096E}|TestimonialApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DB81BA-9178-C7C8-C829-B7F9AADA096E}|TestimonialApi.csproj|c:\\users\\web\\downloads\\tesd-1800-follow-along\\testimonialapi\\testimonialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DB81BA-9178-C7C8-C829-B7F9AADA096E}|TestimonialApi.csproj|solutionrelative:testimonialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DB81BA-9178-C7C8-C829-B7F9AADA096E}|TestimonialApi.csproj|c:\\users\\web\\downloads\\tesd-1800-follow-along\\testimonialapi\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DB81BA-9178-C7C8-C829-B7F9AADA096E}|TestimonialApi.csproj|solutionrelative:testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestimonialDb.cs",
+              "DocumentMoniker": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\TestimonialDb.cs",
+              "RelativeDocumentMoniker": "TestimonialDb.cs",
+              "ToolTip": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\TestimonialDb.cs",
+              "RelativeToolTip": "TestimonialDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T17:58:54.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Testimonial.cs",
+              "DocumentMoniker": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\Testimonial.cs",
+              "RelativeDocumentMoniker": "Testimonial.cs",
+              "ToolTip": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\Testimonial.cs",
+              "RelativeToolTip": "Testimonial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T17:55:05.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T17:43:59.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

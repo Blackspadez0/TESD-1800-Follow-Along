@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AiZ3H0cw++E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\web\\Downloads\\TESD-1800-Follow-Along\\TestimonialApi\\TestimonialApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\web\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\10.0.12\\microsoft.aspnetcore.diagnostics.entityframeworkcore.10.0.12.nupkg.sha512",
+    "C:\\Users\\web\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.12\\microsoft.entityframeworkcore.10.0.12.nupkg.sha512",
+    "C:\\Users\\web\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.12\\microsoft.entityframeworkcore.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\web\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.12\\microsoft.entityframeworkcore.analyzers.10.0.12.nupkg.sha512",
+    "C:\\Users\\web\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\10.0.12\\microsoft.entityframeworkcore.inmemory.10.0.12.nupkg.sha512",
+    "C:\\Users\\web\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.12\\microsoft.entityframeworkcore.relational.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
