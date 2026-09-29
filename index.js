@@ -10,15 +10,19 @@ for (let i = 0; i < testimonialsJson.length; i++) {
 }
 
 const form = document.querySelector("form");
-form.addEventListener("submit", async () => {
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const formData = new FormData(form);
+  const body = {
+    Feedback: formData.get("feedback"),
+    Rating: formData.get("rating"),
+  };
   await fetch("https://localhost:7192/testimonials", {
     method: "post",
     headers: {
       "Content-type": "application/json",
     },
-    body: JSON.stringify(formData),
+    body: JSON.stringify(body),
   });
   location.reload();
 });

@@ -1,3 +1,5 @@
+const { faker } = require("@faker-js/faker");
+
 describe("testimonials", () => {
   it("lists testimonials", () => {
     cy.visit("http://localhost:5173");
@@ -8,9 +10,9 @@ describe("testimonials", () => {
   });
 
   it("creates testimonials", () => {
-    cy.visit("http://localhost.5173");
+    cy.visit("http://localhost:5173");
 
-    const feedback = faker.commerce.productDescriptiion();
+    const feedback = faker.commerce.productDescription();
     const rating = faker.number.int({ min: 0, max: 5 });
 
     cy.get("form").should("be.visible");
@@ -18,7 +20,7 @@ describe("testimonials", () => {
     cy.get('form input[name="rating"][type="number"]')
       .should("be.visible")
       .type(rating);
-    cy.get("form submmit")
+    cy.get('form button[type="submit"]')
       .should("be.visible")
       .and("have.text", "Create Testimonial")
       .click();
