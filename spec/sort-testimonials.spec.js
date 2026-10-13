@@ -1,11 +1,11 @@
-import sortTestimonials from "../util/sort-testimonials";
+const sortTestimonials = require("../util/sort-testimonials");
 
 describe("sortTestimonials", () => {
     const unsortedTestimonials = [
         { feedback: "Incredible! Just amazing..." , rating: 5 },
         { feedback: "At least it was cheap..." , rating: 3 },
         { feedback: "That one guy was to funny for me to concentrate." , rating: 0 }
-    ]
+    ];
 
     it("sorts testimonials by feedback alphabetically", () => {
         const expectedSorting = [
@@ -15,7 +15,7 @@ describe("sortTestimonials", () => {
         ]
 
         const actualSorting = sortTestimonials(unsortedTestimonials, "nameAsc")
-        expectedSorting(actualSorting).to.eq(expectedSorting);
+        expect(actualSorting).toEqual(expectedSorting);
     });
     
     it("sorts testimonials by decreasiing rating", () => {
@@ -25,8 +25,8 @@ describe("sortTestimonials", () => {
             { feedback: "That one guy was to funny for me to concentrate." , rating: 0 },
         ]
 
-        const actualSorting = sortTestimonials(unsortedTestimonials, "nameAsc")
-        expectedSorting(actualSorting).to.eq(expectedSorting);
+        const actualSorting = sortTestimonials(unsortedTestimonials, "ratingDesc")
+        expect(actualSorting).toEqual(expectedSorting);
     });
 
     it("sorts testimonials by increasing rating", () => {
@@ -36,7 +36,7 @@ describe("sortTestimonials", () => {
             { feedback: "Incredible! Just amazing..." , rating: 5 },
         ]
 
-        const actualSorting = sortTestimonials(unsortedTestimonials, "nameAsc")
-        expectedSorting(actualSorting).to.eq(expectedSorting);
+        const actualSorting = sortTestimonials(unsortedTestimonials, "ratingAsc")
+        expect(actualSorting).toEqual(expectedSorting);
     });
-})
+});
